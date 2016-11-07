@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "LanguageExt.Core": "1.9.3",
+    "NETStandard.Library": "1.6.0",
+    "SeatReservation.Common": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
