@@ -3,7 +3,7 @@
   "version": 2,
   "targets": {
     ".NETStandard,Version=v1.6": {
-      "LanguageExt.Core/1.9.3": {
+      "LanguageExt.Core/1.9.5": {
         "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
@@ -17,10 +17,10 @@
           "System.Security.Cryptography.Algorithms": "4.2.0"
         },
         "compile": {
-          "lib/netstandard1.6/LanguageExt.Core.dll": {}
+          "lib/netstandard1.3/LanguageExt.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.6/LanguageExt.Core.dll": {}
+          "lib/netstandard1.3/LanguageExt.Core.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.0.1": {
@@ -1232,33 +1232,32 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "SeatReservation.Common/1.0.0": {
+      "SeatReservation.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.6",
         "dependencies": {
-          "NETStandard.Library": "1.6.0",
-          "System.ComponentModel": "4.0.1"
+          "NETStandard.Library": "1.6.0"
         },
         "compile": {
-          "netstandard1.6/SeatReservation.Common.dll": {}
+          "netstandard1.6/SeatReservation.Core.dll": {}
         },
         "runtime": {
-          "netstandard1.6/SeatReservation.Common.dll": {}
+          "netstandard1.6/SeatReservation.Core.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "LanguageExt.Core/1.9.3": {
-      "sha512": "fdiSG+CPnbFWCGpjEtd7kNHLK5szqahqA4ItoR0VGKuPscDdic2PFxIOknDewI+03D8OOWLyBGJCj2JCiXxFmA==",
+    "LanguageExt.Core/1.9.5": {
+      "sha512": "IaSDYpuoT2GKF0uUNpRxkAoxuYQ3bnY3Dr4UNfa/Dc1tHbR48hRYaWWriDicJAsYYdIBe1aP2h6AgNxW1rmU2g==",
       "type": "package",
-      "path": "LanguageExt.Core/1.9.3",
+      "path": "LanguageExt.Core/1.9.5",
       "files": [
-        "LanguageExt.Core.1.9.3.nupkg.sha512",
+        "LanguageExt.Core.1.9.5.nupkg.sha512",
         "LanguageExt.Core.nuspec",
         "lib/net45/LanguageExt.Core.dll",
         "lib/net46/LanguageExt.Core.dll",
-        "lib/netstandard1.6/LanguageExt.Core.dll"
+        "lib/netstandard1.3/LanguageExt.Core.dll"
       ]
     },
     "Microsoft.NETCore.Platforms/1.0.1": {
@@ -4507,17 +4506,17 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "SeatReservation.Common/1.0.0": {
+    "SeatReservation.Core/1.0.0": {
       "type": "project",
-      "path": "../SeatReservation.Common/project.json",
-      "msbuildProject": "../SeatReservation.Common/SeatReservation.Common.xproj"
+      "path": "../SeatReservation.Core/project.json",
+      "msbuildProject": "../SeatReservation.Core/SeatReservation.Core.xproj"
     }
   },
   "projectFileDependencyGroups": {
     "": [
-      "LanguageExt.Core >= 1.9.3",
+      "LanguageExt.Core >= 1.9.5",
       "NETStandard.Library >= 1.6.0",
-      "SeatReservation.Common >= 1.0.0-*"
+      "SeatReservation.Core >= 1.0.0-*"
     ],
     ".NETStandard,Version=v1.6": []
   },
