@@ -1,2 +1,10 @@
-#:D:\Project\SeatReservation\SeatReservation.Domain\SeatReservation.Domain.xproj
-D:\Project\SeatReservation\SeatReservation.Domain\SeatReservation.Domain.xproj|D:\Project\SeatReservation\SeatReservation.Common\SeatReservation.Common.xproj
+#:D:\Project\SeatReservation\SeatReservation.WebApi\SeatReservation.WebApi.xproj
+D:\Project\SeatReservation\SeatReservation.WebApi\SeatReservation.WebApi.xproj|D:\Project\SeatReservation\SeatReservation.Api\SeatReservation.Api.xproj
+D:\Project\SeatReservation\SeatReservation.WebApi\SeatReservation.WebApi.xproj|D:\Project\SeatReservation\SeatReservation.Core\SeatReservation.Core.xproj
+D:\Project\SeatReservation\SeatReservation.WebApi\SeatReservation.WebApi.xproj|D:\Project\SeatReservation\SeatReservation.Domain\SeatReservation.Domain.xproj
+D:\Project\SeatReservation\SeatReservation.WebApi\SeatReservation.WebApi.xproj|D:\Project\SeatReservation\SeatReservation.Infrastructure\SeatReservation.Infrastructure.xproj
+D:\Project\SeatReservation\SeatReservation.Api\SeatReservation.Api.xproj|D:\Project\SeatReservation\SeatReservation.Core\SeatReservation.Core.xproj
+D:\Project\SeatReservation\SeatReservation.Api\SeatReservation.Api.xproj|D:\Project\SeatReservation\SeatReservation.Domain\SeatReservation.Domain.xproj
+D:\Project\SeatReservation\SeatReservation.Domain\SeatReservation.Domain.xproj|D:\Project\SeatReservation\SeatReservation.Core\SeatReservation.Core.xproj
+D:\Project\SeatReservation\SeatReservation.Infrastructure\SeatReservation.Infrastructure.xproj|D:\Project\SeatReservation\SeatReservation.Api\SeatReservation.Api.xproj
+D:\Project\SeatReservation\SeatReservation.Infrastructure\SeatReservation.Infrastructure.xproj|D:\Project\SeatReservation\SeatReservation.Core\SeatReservation.Core.xproj
